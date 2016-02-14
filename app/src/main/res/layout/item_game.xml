@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_item_game_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/id_item_game_icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:actualImageScaleType="fitXY"
+        app:failureImage="@mipmap/product_default"
+        app:failureImageScaleType="fitXY"
+        app:placeholderImage="@mipmap/product_default"
+        app:placeholderImageScaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/id_item_game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="标题" />
+
+</LinearLayout>

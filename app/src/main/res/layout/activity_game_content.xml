@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.hpdxay.hpd3dmgame.GameContentActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/id_game__content_icon"
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        app:actualImageScaleType="fitXY"
+        app:failureImage="@mipmap/product_default"
+        app:failureImageScaleType="fitXY"
+        app:placeholderImage="@mipmap/product_default"
+        app:placeholderImageScaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_game__content_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="游戏名称"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:id="@+id/id_game__content_tid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="游戏类型"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/id_game__content_made_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="开发厂商"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/id_game__content_release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="发售日期"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/id_game__content_release_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="发售厂商"
+            android:textColor="#000" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="官方网站："
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/id_game__content_websit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="点击进入"
+                android:textColor="#101ad9" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/id_game__content_terrace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="游戏平台"
+            android:textColor="#000" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
